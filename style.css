@@ -1,8 +1,156 @@
-body{
-background-color: blanchedalmond;
-margin: 50px;
-} 
-p{
-    color: blue;
-    
+body {
+    background-color: #e7dfd8;
+    margin: 0;
+    font-family: "inter",sans-serif;
+}
+h2, p {
+margin: 0px;
+padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    margin: 0px auto;
+    width: 1119px;
+}
+span {
+    width: 74px;
+    height: 74px;
+    border-radius: 100px;
+    color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+/*Перша секція*/
+.mickey {
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+.mickey-container {
+    display: flex;
+    gap: 107px;
+}
+.mickey-desc {
+    font-size: 19px;
+    color: #101010;
+    line-height: 189%;
+    display: flex;
+    align-items: center;
+}
+.mickey-desc span {
+background-color: #b99fea;
+margin-right: 30px;
+}
+.mickey-title {
+    color: #101010;
+    line-height: 130%;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    font-weight: 400;
+    padding-top: 29px;
+}
+.mickey-text {
+    font-size: 14px;
+    line-height: 158%;
+    color: #101010;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 35px;
+}
+.mickey-link {
+    background-color: #b99fea;
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+/*Друга секція*/
+.coco {
+    padding-top: 28px;
+    padding-bottom: 28px;  
+}
+.coco-container {
+    display: flex;
+    gap: 113px;
+}
+.coco-desc {
+    font-size: 1px;
+    color: #101010;
+    line-height: 184%;
+    display: flex;
+    align-items: center; 
+}
+.coco-desc span {
+    background-color: #EBA789;
+    margin-right: 21px;
+}
+.coco-title {
+    color: #101010;
+    line-height: 130%;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    font-weight: 400;
+    padding-top: 29px;
+}
+.coco-text {
+    font-size: 29px;
+    line-height: 158%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.coco-link {
+    background-color: #EBA789;
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+/*третя секція*/
+.vayana {
+    padding-top: 113px;
+    padding-bottom: 112px;  
+}
+.vayana-container {
+    display: flex;
+    gap: 113px;
+}
+.vayana-desc {
+    font-size: 19px;
+    color: #101010;
+    line-height: 189%;
+    display: flex;
+    align-items: center; 
+}
+.vayana-desc span {
+    background-color: #96DBC6;
+    margin-right: 21px;
+}
+.vayana-title {
+    color: #101010;
+    line-height: 130%;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    font-weight: 400;
+    padding-top: 29px;
+}
+.vayana-text {
+    font-size: 15px;
+    line-height: 158%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.vayana-link {
+    background-color: #96DBC6;
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
